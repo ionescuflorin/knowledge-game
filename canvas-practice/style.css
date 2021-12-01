@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+canvas {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    width: calc(100% - 40px);
+    /*substract the total margin from 100% and will automoatically adjuts accordint to your need*/
+    margin: 20px;
+    /* works for left margin but not for right */
+  }
+
+#canvasArea {}
